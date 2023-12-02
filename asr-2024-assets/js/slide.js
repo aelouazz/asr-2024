@@ -21,23 +21,23 @@ function showSlide(n) {
 	if (n === 1) {
 		currentMockup = 1;
 		cir1.classList.add("active");
-		mockup.src = "./img/mockup-01.png";
+		mockup.src = "./asr-2024-assets/images/mockup-01.png";
 	} else if (n === 2) {
 		currentMockup = 2;
 		cir2.classList.add("active");
-		mockup.src = "./img/mockup-02.png";
+		mockup.src = "./asr-2024-assets/images/mockup-02.png";
 	} else if (n === 3) {
 		currentMockup = 3;
 		cir3.classList.add("active");
-		mockup.src = "./img/mockup-03.png";
+		mockup.src = "./asr-2024-assets/images/mockup-03.png";
 	} else if (n === 4) {
 		currentMockup = 4;
 		cir4.classList.add("active");
-		mockup.src = "./img/mockup-04.png";
+		mockup.src = "./asr-2024-assets/images/mockup-04.png";
 	} else if (n === 5) {
 		currentMockup = 5;
 		cir5.classList.add("active");
-		mockup.src = "./img/mockup-05.png";
+		mockup.src = "./asr-2024-assets/images/mockup-05.png";
 	}
 }
 

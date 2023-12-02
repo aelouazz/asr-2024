@@ -70,62 +70,62 @@ const tog6 = document.querySelector(".toggle6");
 let visible = 1;
 
 function setClose() {
-	tog1.setAttribute("src", "./img/faq-plus.svg");
-	tog2.setAttribute("src", "./img/faq-plus.svg");
-	tog3.setAttribute("src", "./img/faq-plus.svg");
-	tog4.setAttribute("src", "./img/faq-plus.svg");
-	tog5.setAttribute("src", "./img/faq-plus.svg");
-	tog6.setAttribute("src", "./img/faq-plus.svg");
+	tog1.setAttribute("src", "./asr-2024-assets/images/faq-plus.svg");
+	tog2.setAttribute("src", "./asr-2024-assets/images/faq-plus.svg");
+	tog3.setAttribute("src", "./asr-2024-assets/images/faq-plus.svg");
+	tog4.setAttribute("src", "./asr-2024-assets/images/faq-plus.svg");
+	tog5.setAttribute("src", "./asr-2024-assets/images/faq-plus.svg");
+	tog6.setAttribute("src", "./asr-2024-assets/images/faq-plus.svg");
 }
 
 function toggle(tog) {
 	setClose();
 	if (1 === tog) {
 		if (visible === 1) {
-			tog1.setAttribute("src", "./img/faq-plus.svg");
+			tog1.setAttribute("src", "./asr-2024-assets/images/faq-plus.svg");
 			visible = 0;
 		} else {
-			tog1.setAttribute("src", "./img/faq-x.svg");
+			tog1.setAttribute("src", "./asr-2024-assets/images/faq-x.svg");
 			visible = tog;
 		}
 	} else if (2 === tog) {
 		if (visible === 2) {
-			tog2.setAttribute("src", "./img/faq-plus.svg");
+			tog2.setAttribute("src", "./asr-2024-assets/images/faq-plus.svg");
 			visible = 0;
 		} else {
-			tog2.setAttribute("src", "./img/faq-x.svg");
+			tog2.setAttribute("src", "./asr-2024-assets/images/faq-x.svg");
 			visible = tog;
 		}
 	} else if (3 === tog) {
 		if (visible === 3) {
-			tog3.setAttribute("src", "./img/faq-plus.svg");
+			tog3.setAttribute("src", "./asr-2024-assets/images/faq-plus.svg");
 			visible = 0;
 		} else {
-			tog3.setAttribute("src", "./img/faq-x.svg");
+			tog3.setAttribute("src", "./asr-2024-assets/images/faq-x.svg");
 			visible = tog;
 		}
 	} else if (4 === tog) {
 		if (visible === 4) {
-			tog4.setAttribute("src", "./img/faq-plus.svg");
+			tog4.setAttribute("src", "./asr-2024-assets/images/faq-plus.svg");
 			visible = 0;
 		} else {
-			tog4.setAttribute("src", "./img/faq-x.svg");
+			tog4.setAttribute("src", "./asr-2024-assets/images/faq-x.svg");
 			visible = tog;
 		}
 	} else if (5 === tog) {
 		if (visible === 5) {
-			tog5.setAttribute("src", "./img/faq-plus.svg");
+			tog5.setAttribute("src", "./asr-2024-assets/images/faq-plus.svg");
 			visible = 0;
 		} else {
-			tog5.setAttribute("src", "./img/faq-x.svg");
+			tog5.setAttribute("src", "./asr-2024-assets/images/faq-x.svg");
 			visible = tog;
 		}
 	} else if (6 === tog) {
 		if (visible === 6) {
-			tog6.setAttribute("src", "./img/faq-plus.svg");
+			tog6.setAttribute("src", "./asr-2024-assets/images/faq-plus.svg");
 			visible = 0;
 		} else {
-			tog6.setAttribute("src", "./img/faq-x.svg");
+			tog6.setAttribute("src", "./asr-2024-assets/images/faq-x.svg");
 			visible = tog;
 		}
 	}
