@@ -1,0 +1,1180 @@
+/* KARLA Font Import */
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700;800&display=swap");
+
+* {
+	box-sizing: border-box;
+}
+
+/* General Styles / Resets ****************/
+.container-fluid {
+	overflow: hidden;
+}
+body {
+	background-color: #11164c;
+	min-height: 100vh;
+	color: #ffffff;
+	font-family: "Karla", sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a:hover {
+	color: #ffffff;
+}
+
+.heading2 {
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 40.266px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.heading2 span {
+	color: #fff;
+	font-size: 40.266px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+}
+
+.heading3,
+.heading4 {
+	color: #fff;
+	font-size: 30.207px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.heading4 {
+	font-size: 22.75;
+}
+
+.body-txt {
+	color: #fff;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 155%;
+}
+
+.shadow-btn {
+	display: flex;
+	padding: 12px 24px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+
+	border-radius: 1000px;
+	border: 2px solid #fff;
+	opacity: 0.7;
+}
+
+.shadow-btn:hover {
+	opacity: 1;
+}
+
+.badge-icon {
+	opacity: 0.6;
+}
+
+.badge-icon:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+/* vertical scroll on old phones */
+.content {
+	overflow-x: hidden;
+}
+
+/* Promotion Banner **************/
+.promotion {
+	background-color: #0c0c26;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.promotion:hover {
+	cursor: pointer;
+}
+
+.promotion p {
+	color: #6398eb;
+	margin-bottom: 0;
+	margin-left: 0.5rem;
+}
+
+.promotion p span {
+	color: #fff;
+}
+
+/* Navigation *******************/
+.nav-link {
+	color: #fff;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.nav-devider {
+	margin: 2rem 0;
+}
+
+.hero-bg {
+	background-image: url(./img/deco-bg.svg), url(./img/deco-bg.svg);
+	background-position: -400px 0px, 950px 0px;
+	background-repeat: no-repeat;
+}
+.hero-bg2 {
+	background-image: url(./img/deco-bg.svg);
+	background-position: -400px 0px;
+	background-repeat: no-repeat;
+}
+.all-in-one-bg {
+	background-image: url(./img/deco-bg.svg), url(./img/deco-bg.svg);
+	background-position: -400px -200px, 950px -200px;
+	background-repeat: no-repeat;
+}
+
+/* Hero Section ********************/
+
+h2,
+h1 {
+	width: fit-content;
+}
+
+.hero-supheader {
+	color: #fff;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+
+	opacity: 0.7;
+}
+
+.hero-display {
+	color: #fff;
+	font-size: 53.675px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.download-btn {
+	color: #fff;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+
+	background-color: #1649FF;
+	padding: 0.7rem 2rem;
+	border-radius: 2000px;
+}
+.download-btn:hover {
+	background-color: #0e57c5;
+}
+
+/* Updated Hero *********** */
+/* ////////////////////// */
+.hero-v2 {
+	min-height: 700px;
+	background-color: #030821;
+	background-image: url('./img/hero-bg-v2.svg');
+	background-size: cover;
+}
+
+.hero-v2 .hero {
+	position: relative;
+	z-index: 10;
+}
+
+.header-all {
+	background-color: #030821;
+}
+
+.container.hero {
+	max-width: 1500px;
+}
+
+.glow-btn {
+	border-radius: 1000px;
+	border: 1px solid #ffffff55;
+	background: #1649FF;
+	box-shadow: 0px 4px 8.4px 0px rgba(0, 209, 255, 0.24);
+	padding: 12px 32px;
+
+	color: #fff;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.hero-v2 .promotion {
+	background-color: transparent;
+}
+.deco-lines {
+	z-index: 1;
+	top: 300px;
+	overflow: hidden;
+	width: 65%;
+}
+
+.deco-lines img {
+	animation: slideLeft linear 10s infinite;
+	/* height: 250px; */
+}
+
+.navbar-dark{
+	background-color: #060a39;
+}
+
+.navbar-brand img{
+	width: 200px;
+}
+
+@keyframes slideLeft {
+	0% {
+		transform: translateX(0);
+		opacity: .8;
+	}
+	20% {
+		opacity: 0.1;
+	}
+	40% {
+		opacity: 0.8;
+	}
+	60% {
+		opacity: 0.1;
+	}
+	80% {
+		opacity: 0.8;
+	}
+
+	100% {
+		transform: translateX(calc(-33.33333333%));
+		opacity: .8;
+	}
+}
+
+.mockup{
+	position:relative;
+	animation: mockup-anim 6s  infinite ease-in-out;
+}
+
+@keyframes mockup-anim {
+	0%{
+		top: 0;
+	}
+	50%{
+		top: 18px;
+	}
+	100%{
+		top: 0;
+	}
+}
+
+
+.nav-circles{
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	top: 50%;
+	right: 8px;
+}
+
+.nav-circles .circle{
+	width: 13px;
+	height: 13px;
+
+	background-color: #394171;
+	border-radius: 10000px;
+}
+
+.nav-circles .circle.active{
+	background-color: #1649FF;
+}
+/* Trusted Reviews **************/
+.happy-user {
+	position: relative;
+}
+
+.excellent h3 {
+	color: #fff;
+	font-size: 30.207px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.trust-card {
+	border-radius: 16px;
+	background: rgba(0, 0, 0, 0.37);
+}
+
+.name {
+	font-size: 22.661px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.shadow-hide-right {
+	position: absolute;
+	width: fit-content;
+	right: 0;
+	width: 319px;
+	height: 319px;
+	padding: 0;
+	margin: 0;
+	transform: translateX(100px);
+	transform: translateY(24px);
+}
+.shadow-hide-left {
+	position: absolute;
+	width: fit-content;
+	left: -200px;
+	width: 319px;
+	height: 319px;
+	padding: 0;
+	margin: 0;
+	transform: translateX(100px);
+	transform: translateY(24px);
+	transform: rotate(180deg);
+}
+
+.arrow-right-btn {
+	width: 50px;
+	position: absolute;
+	right: 70px;
+	bottom: 150px;
+	background: none;
+	border: none;
+}
+.arrow-left-btn {
+	width: 50px;
+	position: absolute;
+	left: -35px;
+	bottom: 150px;
+	background: none;
+	border: none;
+	transform: rotate(180deg);
+}
+
+.cards {
+	transition: ease-in-out all 0.2s;
+}
+
+/* Latest News ***************************/
+
+.posts {
+	transition: ease-in-out all 0.5s;
+}
+
+.border-left {
+	border-left: #060a3933 solid 2px;
+}
+
+.latest-news {
+	min-height: 300px;
+	background-color: #ffffff;
+	padding-top: 3rem;
+}
+
+.latest-news .heading2 {
+	color: rgba(17, 22, 76, 0.6);
+	font-size: 40.266px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-align: center;
+	width: fit-content;
+}
+
+.no-style-btn {
+	background: none;
+	border: none;
+}
+
+.heading3.dark {
+	color: #11164c;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	width: fit-content;
+}
+
+.dark {
+	color: #11164c;
+	margin: 0;
+	padding: 0;
+}
+
+h4.dark {
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 155%; /* 26.35px */
+}
+
+/* Service Section *********************/
+.service-txt {
+	font-size: 22.661px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-align: center;
+}
+
+/* ASR Overview Section ****************/
+.dashboard-img {
+	position: relative;
+	left: -200px;
+}
+
+/* All in One Section *************/
+.shadow-card-container {
+	border-radius: 12px;
+	border: 1px solid rgba(255, 255, 255, 0.36);
+
+	padding: 1rem;
+	margin-top: 1rem;
+}
+
+.card-heading {
+	color: #fff;
+	font-size: 22.75px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 1rem;
+}
+
+/* Banner Section *************/
+.banner {
+	background: rgb(17, 22, 76);
+	background: linear-gradient(
+		0deg,
+		rgb(255, 255, 255) 0%,
+		rgb(255, 255, 255) 20%,
+		rgba(25, 62, 115, 1) 20%,
+		rgba(25, 62, 115, 1) 75%,
+		rgba(17, 22, 76, 1) 75%,
+		rgba(17, 22, 76, 1) 100%
+	);
+	min-height: 100px;
+	position: relative;
+	padding: 1rem;
+}
+.banner .heading3 {
+	color: #fff;
+	font-size: 22.75px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+/* Charts Proof Section **************/
+
+.img-stat-overlay {
+	color: #232d42;
+	text-align: center;
+	font-size: 18.84px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 25.967px; /* 137.833% */
+	letter-spacing: 0.649px;
+
+	top: 23px;
+	left: -5px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 198px;
+}
+.proof {
+	background-color: #ffffff;
+	min-height: 200px;
+	color: #11164c;
+}
+
+.heading2.blue {
+	color: rgba(17, 22, 76, 0.5);
+	font-size: 40.266px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.heading2.blue span {
+	color: #11164c;
+	font-size: 40.266px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.body-txt.blue {
+	color: #11164c;
+}
+
+.proof-card h4 {
+	font-size: 30.207px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.proof-card p {
+	font-size: 22.661px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 140%;
+}
+
+.star {
+	text-align: center;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 140%;
+}
+
+/* Footer Section ***************/
+.footer-heading {
+	font-size: 22.75px;
+	font-style: normal;
+	font-weight: 700;
+}
+
+.footer-txt,
+footer a {
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	margin-bottom: 0;
+}
+
+.footer-btn {
+	font-size: 12.75px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.links a {
+	font-weight: 700;
+}
+
+.chat {
+	position: fixed;
+	bottom: 16px;
+	right: 16px;
+	z-index: 10000000;
+}
+
+/* /////////////// */
+/* Pre-Cart Page: ///////*/
+/* ////////////// */
+.header-container {
+	background-color: #0e123f;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.hero-banner {
+	background-color: #11164c;
+	background-image: url("./img/bg-big.svg");
+	background-size: 100vw;
+	background-repeat: no-repeat;
+	background-position-y: top -100px;
+}
+
+.page-main-title {
+	font-size: 40.269px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+}
+
+.text-22 {
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.text-22-b {
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.55px;
+}
+
+/* Pricing Section */
+.pricing-container {
+	background-color: #060a39;
+}
+
+.card-head h3 {
+	font-size: 26.46px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	letter-spacing: 0.661px;
+}
+
+.card-price {
+	font-size: 40.269px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+}
+.card-price span {
+	font-size: 24.002px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.card-body > h4 {
+	color: rgba(255, 255, 255, 0.74);
+	font-size: 14.001px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	letter-spacing: 1.05px;
+}
+
+.card-billing {
+	color: rgba(255, 255, 255, 0.94);
+	font-size: 14.001px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	letter-spacing: 1.05px;
+}
+
+.card-discount {
+	color: rgba(255, 255, 255, 0.33);
+	font-size: 22.001px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 89.4%;
+	letter-spacing: 0.77px;
+	text-decoration-line: strikethrough;
+}
+
+.card-discount span {
+	color: #ffffff;
+	font-size: 22.001px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 89.4%;
+	letter-spacing: 0.77px;
+	padding-left: 1rem;
+}
+
+.price-checkmark {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.price-checkmark p {
+	font-size: 12.75px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 109.5%;
+	letter-spacing: 0.446px;
+	margin-bottom: 0;
+}
+
+.price-btn {
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 700;
+	padding: 16px 32px;
+	border: 2px solid #fff;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+.price-btn.focus {
+	color: #060a39;
+	background-color: #ffffff;
+	border-radius: 8px;
+}
+
+.main-card {
+	border: 6px #02b476 solid;
+	border-radius: 8px;
+}
+
+.tagged {
+	color: #fff;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	letter-spacing: 2.4px;
+	background-color: #02b476;
+	padding: 16px;
+	text-align: center;
+}
+
+.compare {
+	color: #060a39;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	letter-spacing: 0.55px;
+	padding: 16px 24px;
+	border: 2px solid white;
+	border-radius: 8px;
+}
+
+.compare:hover {
+	color: #060a39;
+	border: 2px solid #d3d3d3;
+}
+
+/* Offers Serction *************/
+.offers {
+	background-color: #060a39;
+}
+.include-badge {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	padding: 4px 8px;
+
+	border-radius: 1000px;
+	border: 2px solid rgba(255, 255, 255, 0.14);
+}
+
+.offers-title {
+	font-size: 40.269px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+}
+
+/* Support Section */
+.support h2 {
+	font-size: 40.269px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+}
+
+.support h3 {
+	font-size: 18.661px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	margin-top: 1rem;
+}
+
+.support-txt {
+	font-size: 17.001px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	opacity: 0.8;
+	padding-right: 24px;
+}
+
+.support-sub-header {
+	font-size: 24.257px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+/* FAQ Section **********************/
+.faq {
+	background-color: #ffffff;
+	padding: 5rem;
+	padding-bottom: 6rem;
+	min-height: 800px;
+}
+
+.accordion-button {
+	display: flex;
+}
+
+.accordion-body {
+	padding-left: 0 !important;
+	padding-bottom: 0;
+}
+
+.accordion-item {
+	border-bottom: 2px solid #0c0c2655 !important;
+	padding-bottom: 1rem;
+}
+
+.faq-heading {
+	color: #11164c;
+	font-size: 40.269px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+}
+
+.accordion-header {
+	color: #11164c;
+	font-size: 24.257px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	padding-top: 1rem;
+}
+
+.faq-text {
+	color: #11164c;
+	font-size: 17.001px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 155%;
+}
+
+.accordion-flush .accordion-item {
+	border: none;
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+/* Steps Section ********************/
+.steps-container {
+	background-image: url("./img/bg-steps.svg");
+	background-size: cover;
+}
+.steps-heading2 {
+	color: rgba(255, 255, 255, 0.75);
+	font-size: 40.269px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-top: 3rem;
+}
+.steps-heading2 span {
+	color: #ffffff;
+	font-size: 40.269px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+}
+.steps-heading3 {
+	font-size: 30.209px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	margin-bottom: 3rem;
+}
+.step-title {
+	text-align: center;
+	font-size: 18.661px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-bottom: 1rem;
+}
+
+.step-text {
+	text-align: center;
+	font-size: 17.001px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	opacity: 0.8;
+	padding: 0px 1rem;
+}
+
+/* /////////////// */
+/* Cart Page: ///////*/
+/* ////////////// */
+
+/* Payment section ***************/
+
+.bank-info {
+	color: #11164c;
+	background-color: #ffffff;
+}
+
+.tab {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	background-color: #11164c;
+}
+
+.tab p {
+	color: #fff;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.active-tab {
+	background-color: #f5f6f7;
+}
+.active-tab p {
+	color: #060a39;
+}
+.billing-tab-title {
+	color: #ffffff;
+	margin-bottom: 0;
+}
+
+.payment-method-container {
+	min-height: 300px;
+}
+
+.payment-method-container h1 {
+	color: #11164c;
+	font-size: 26.462px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+.payment-method-container label {
+	color: #11164c;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-top: 1.3rem;
+	margin-bottom: 0.5rem;
+}
+
+.payment-method-container input {
+	width: 100%;
+	height: 52px;
+
+	color: rgba(17, 22, 76, 0.41);
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	padding-left: 24px;
+}
+
+.buy-btn {
+	height: 52px;
+	width: 100%;
+
+	background-color: #1649FF;
+	color: #fff;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.buy-btn:hover {
+	border: 2px solid rgb(214, 214, 214);
+}
+
+.ssl-container {
+	background: rgba(17, 24, 79, 0.1);
+}
+
+/* order details / software box Part */
+
+.darker-bg {
+	background-color: #0b1046;
+}
+.pale-bg {
+	background-color: #292d5e;
+}
+
+.order-details .tag {
+	color: #fff;
+	font-size: 14.549px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.364px;
+	background-color: #7a00b4;
+	width: fit-content;
+	padding: 8px 16px;
+}
+.order-details .tag2 {
+	font-size: 14.549px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.364px;
+	background-color: #02b476;
+	width: fit-content;
+	padding: 8px 16px;
+}
+
+.order-list {
+	color: #fff;
+	font-size: 14.487px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 100%;
+	letter-spacing: 0.507px;
+}
+.ghost-txt {
+	color: #fff;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 135%;
+	letter-spacing: 0.42px;
+	opacity: 0.5;
+}
+
+.upgrade-fee {
+	color: rgba(255, 255, 255, 0.44);
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 89.4%;
+	letter-spacing: 0.595px;
+	text-decoration-line: underline;
+}
+
+.up-price {
+	color: #fff;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 89.4%;
+	letter-spacing: 0.595px;
+}
+
+.price {
+	color: rgba(255, 255, 255, 0.44);
+	font-family: Karla;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 89.4%; /* 21.456px */
+	letter-spacing: 0.84px;
+	text-decoration: dashed;
+}
+
+.price span {
+	color: #fff;
+	font-family: Karla;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 89.4%;
+	letter-spacing: 0.84px;
+}
+
+/* Guaranteed money back */
+.guaranteed p {
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 169.4%;
+	opacity: 0.7;
+}
+.guaranteed a {
+	color: #fff;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 169.4%;
+}
+
+/* Contact us Section ***********/
+.contact-us h3 {
+	color: #fff;
+	font-size: 22.663px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.contact-us p {
+	color: #fff;
+	font-size: 17.001px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 155%; /* 26.352px */
+	padding: 0;
+}
+
+.contact-us span {
+	color: #fff;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.ghost {
+	opacity: 0.5;
+	transition: all 0.5s ease;
+}
+
+.ghost:hover {
+	opacity: 1;
+}
+
+/* ///////////////////////////////// */
+/* ********* Phone Custom resos***** */
+@media only screen and (max-width: 450px) {
+	.navbar-brand img {
+		width: 175px;
+	}
+
+	.badge-icon {
+		max-width: 150px;
+	}
+	.compare {
+		font-size: 17px;
+
+		padding: 8px 16px;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.banner {
+		background: rgba(25, 62, 115, 1);
+		padding-bottom: 3rem;
+	}
+
+	.proof {
+		padding-top: 4rem;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.border-left {
+		border-left: none;
+	}
+	.cards {
+		transform: none !important;
+	}
+}
