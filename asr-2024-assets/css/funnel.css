@@ -1,0 +1,170 @@
+/* /////////////////////////////// */
+/* Funnel Start Page //////////////*/
+.funnel-content {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("../images/funnel-bg.png");
+}
+
+.guaranteed-container {
+	background-color: #0a0f3b;
+}
+
+.funnel-display {
+	color: #fff;
+	font-size: 40.27px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.funnel-sub-display {
+	color: #fff;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+}
+
+.funnel-checkmark p {
+	color: #fff;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 140%; /* 23.8px */
+	letter-spacing: 0.595px;
+}
+
+.funnel-start-h3 {
+	color: #fff;
+	font-size: 30.21px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+}
+
+.funnel-start-h3 span {
+	color: #fff;
+	font-size: 30.21px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.funnel-btn {
+	border: none;
+	background-color: #1c78ff;
+	color: #ffffff;
+	padding: 12px 32px;
+	border-radius: 400px;
+
+	color: #fff;
+	font-size: 22.661px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+/* Funnel////// */
+.step-num {
+	color: white;
+	font-size: 22.661px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 140%;
+	letter-spacing: 0.793px;
+	border-radius: 500px;
+	width: 36px;
+	height: 36px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 12px;
+	border: white 2px solid;
+}
+.step-num.current {
+	color: #0e123f;
+	background-color: #ffffff;
+}
+
+.devide {
+	width: 10vw;
+	height: 2px;
+	background-color: #ffffff22;
+}
+
+.devide.active {
+	background: rgb(255, 255, 255);
+	background: linear-gradient(
+		90deg,
+		rgba(255, 255, 255, 1) 0%,
+		rgba(255, 255, 255, 1) 52%,
+		rgba(255, 255, 255, 0.2231093120842087) 52%,
+		rgba(255, 255, 255, 0.22) 100%
+	);
+}
+
+.devide.done {
+	background-color: #ffffff;
+}
+
+.step-top {
+	margin-top: 32px;
+}
+.step-title {
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.step-title span {
+	font-weight: 900;
+}
+
+/* Step Card////// */
+.upsell-card {
+	background-color: #0e123f;
+	padding: 12px 32px;
+	border-radius: 16px;
+	position: relative;
+}
+
+.upsell-card h3 {
+	font-size: 22.66px;
+}
+
+.upsell-card .tag {
+	font-size: 12.75px;
+	background-color: #1c78ff;
+	padding: 4px 12px;
+	border-radius: 100px;
+}
+
+.tag.red-tag{
+	background-color: #DB5347;
+}
+.upsell-card-text {
+	font-size: 17px;
+}
+
+.yes-btn {
+	padding: 12px 50px;
+	background-color: #1c78ff;
+	border-radius: 10000px;
+}
+
+.info-btn {
+	color: #c3c4cf;
+}
+
+.info-icon {
+	position: absolute;
+	right: 12px;
+	bottom: 12px;
+}
+
+.continue-btn {
+	padding: 12px 50px;
+	background-color: #1c78ff;
+	border-radius: 10000px;
+	font-weight: 700;
+}
